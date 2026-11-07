@@ -1,0 +1,38 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node.js
+node_modules/
+frontend/dist/
+frontend/coverage/
+
+# Local data
+snake.db
+*.db-journal
+.env
+.env.*
+!.env.example
+
+# IDE and generated files
+.vscode/
+.idea/
+.DS_Store
+.codex
+.zencoder/
+.zenflow/
+
+# Nested Python environments
+backend/venv/
+frontend/node_modules/
+
+# Local caches and generated data
+*.sqlite
+*.sqlite3
+*.log
+.github/workflows/ci.yml
